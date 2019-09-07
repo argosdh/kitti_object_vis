@@ -105,6 +105,10 @@ Show LiDAR with label (5 vector)
 ```
 $ python kitti_object.py --show_lidar_with_depth --img_fov --const_box --vis --pc_label
 ```
+Show LiDAR with pseudo_lidar (5 vector) with index/pseudo_velodyne
+```
+python kitti_object.py --show_lidar_with_depth --img_fov --const_box --vis --lidar pseudo_lidar -p --pseudo_lidar --ind 100
+```
 
 ## Demo
 
